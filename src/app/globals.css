@@ -178,21 +178,39 @@ margin-top: 10px;
 /* Section 5 */
 
 .sec5 h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   text-align: center;
   color: #00519E;
 }
+.cardCustom{
+  border: 10px solid #8DC63F;
+  width: 100%;
+  height: auto;
+}
 
-
-
-
-
-
-
-
-
-
+.cardCustom img{
+  width: 55px;
+  height: 65px;
+}
+.cardCustom h5{
+  color: #293FAD;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cardCustom button{
+  background-color: #293FAD;
+  color: #fff;
+ border-radius: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+.cardCustom button:hover{
+  background-color: hsl(85, 54%, 51%);
+}
 
 
 
@@ -201,6 +219,9 @@ margin-top: 10px;
   .img-logo {
     max-width: 150px !important;
     height: auto;
+  }
+  .nav-sec{
+    margin-left: 30px;
   }
   .nav-button {
     max-width: 100% !important;
@@ -276,5 +297,6 @@ margin-top: 10px;
     width: 300px;
     margin: 30px !important;
   }
+  
 
 }
